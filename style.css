@@ -55,6 +55,8 @@ nav a:hover {
   box-shadow: 0 25px 45px rgba(0,0,0,0.15);
 }
 
+
+
 .filter {
   padding: 20px;
   text-align: center;
@@ -104,6 +106,8 @@ footer {
   padding: 15px;
 }
 
+
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -114,6 +118,8 @@ footer {
     transform: translateY(0);
   }
 }
+
+
 
 @media (max-width: 768px) {
   nav ul {
@@ -133,6 +139,9 @@ footer {
     width: 100%;
   }
 }
+
+
+
 
 body {
   background: linear-gradient(
@@ -158,9 +167,12 @@ body {
   justify-content: space-between;
 }
 
+
 .features article:nth-child(1) { border-color: #9b59b6; }
 .features article:nth-child(2) { border-color: #3498db; }
 .features article:nth-child(3) { border-color: #2ecc71; }
+
+
 
 .features h3 {
   font-size: 1.3rem;
@@ -202,6 +214,7 @@ button {
   background: #dcdde1;
 }
 
+
 .create-event-wrapper {
   min-height: calc(100vh - 120px); 
   display: flex;
@@ -227,6 +240,7 @@ button {
   font-size: 1rem;
 }
 
+
 #eventForm input:focus {
   outline: none;
   border-color: #9b59b6;
@@ -239,6 +253,8 @@ button {
   font-size: 1.05rem;
   border-radius: 10px;
 }
+
+
 
 .form-title {
   text-align: center;
@@ -261,12 +277,16 @@ button {
   text-align: center;
 }
 
+
+
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 30px;
   padding: 40px;
 }
+
+
 
 .image-grid {
   display: grid;
@@ -282,6 +302,7 @@ button {
   border-radius: 14px;
 }
 
+
 @media (max-width: 1000px) {
   .features {
     grid-template-columns: repeat(2, 1fr);
@@ -293,6 +314,7 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
 
 .about, .features-section, .history, .gallery, .cta {
   padding: 80px 15%;
@@ -394,6 +416,8 @@ section:not(.hero)::after {
   border-radius: 10px;
 }
 
+
+
 .features article h3 {
   font-size: 1.4rem;
   color: #2c3e50;
@@ -419,6 +443,8 @@ section:not(.hero)::after {
   margin-top: auto;
 }
 
+
+
 #counter {
   text-align: center;
   font-size: 1rem;
@@ -427,6 +453,8 @@ section:not(.hero)::after {
   font-weight: 500;
 }
 
+
+
 .no-results {
   grid-column: 1 / -1;
   text-align: center;
@@ -434,6 +462,8 @@ section:not(.hero)::after {
   color: #ddd;
   padding: 40px;
 }
+
+
 
 .features article:nth-child(1) { animation-delay: 0.05s; }
 .features article:nth-child(2) { animation-delay: 0.1s; }
