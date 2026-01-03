@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <title>Hobby Groups</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Hobby Groups</h1>
+
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="groups.html">Hobby Groups</a></li>
+      <li><a href="create-event.html">Create Event</a></li>
+      <li><a href="my-events.html">Eventet e Mia</a></li>
+    </ul>
+  </nav>
+  </header>
+<section class="hero">
+  <h2>Gjej komunitetin tënd të preferuar 🤝</h2>
+  <p>Zgjidh një hobby dhe bashkohu me njerëz që ndajnë të njëjtin pasion.</p>
+</section>
+
+
+<main class="features" id="groupsContainer"></main>
+ 
+<div id="groupDetails" style="display:none;">
+  <button id="backBtn">⬅ Back</button>
+  <h2 id="groupTitle"></h2>
+  <div id="groupImages" class="image-grid"></div>
+  <p id="groupText"></p>
+  <div id="joinArea">
+  <span id="joinedText" style="display:none; font-weight:600; color:#358355; margin-right:15px;">
+    Joined
+  </span>
+  <button id="joinFromDetails">Join Group</button>
+  <button id="leaveFromDetails" style="display:none; background:#c95548;">Leave Group</button>
+</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="groups.js"></script>
+</body>
+</html>
