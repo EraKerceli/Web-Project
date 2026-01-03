@@ -8,17 +8,45 @@
 <body>
 
 <header>
-  <h1>Create Event</h1>
-</header>
+  <h1>Krijo Event</h1>
 
+ <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="groups.html">Hobby Groups</a></li>
+      <li><a href="create-event.html">Create Event</a></li>
+    </ul>
+  </nav>
+  </header>
 <main class="form-container">
+  <div class="create-event-wrapper">
   <form id="eventForm">
-    <input type="text" id="title" placeholder="Event Title" required>
-    <input type="text" id="city" placeholder="City" required>
-    <button type="submit">Create Event</button>
-  </form>
+
+  
+  <h2 class="form-title">Krijo Event të Ri</h2>
+  <p class="form-subtitle">Plotëso të dhënat më poshtë</p>
+
+
+  <input type="text" id="title" placeholder="📝 Titulli i eventit" required>
+<input type="text" id="city" placeholder="📍 Qyteti" required>
+<input type="text" id="contact" placeholder="📞 Numër kontakti" required>
+<input type="date" id="date" required>
+<input type="number" id="max" placeholder="👥 Numri maksimal i pjesëmarrësve" required>
+
+
+  <button type="submit">Krijo Event</button>
+
+ 
+  <p class="form-note">Eventin mund ta ndryshosh ose fshish më vonë.</p>
+
+</form>
+
+  </div>
 </main>
 
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="create-event.js"></script>
 </body>
 </html>
