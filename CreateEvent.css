@@ -1,0 +1,27 @@
+.createEventWrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #f3f6fb 0%, #ffffff 60%);
+  padding: 40px 20px;
+}
+
+.eventCard {
+  width: 100%;
+  max-width: 520px;
+  padding: 50px 45px;
+  border-radius: 20px !important;
+  animation: fadeInUp 0.6s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
