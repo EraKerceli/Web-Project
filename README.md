@@ -1,4 +1,4 @@
-- Create Event — Dokumentim Përmbledhës
+- Create Event - permes React 
 
 Faqja Create Event është një komponent funksional i ndërtuar me React që ofron një ndërfaqe për krijimin e eventeve të reja në aplikacion. Kjo komponentë është përgjegjëse për paraqitjen e formës së krijimit të eventit dhe është integruar në aplikacion përmes komponentës kryesore App. Renderimi në DOM realizohet nga index.js, i cili lidh aplikacionin React me elementin #root në dokumentin bazë HTML.
 
